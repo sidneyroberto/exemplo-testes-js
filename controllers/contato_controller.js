@@ -12,7 +12,13 @@ export default class ContatoController {
         return contato;
     }
 
+    remover(id) {
+        this.contatos = this.contatos.filter(contato => contato.id !== id);
+        return this.contatos;
+    }
+
     listar() {
         return this.contatos;
     }
+
 }
