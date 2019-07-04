@@ -1,4 +1,5 @@
 import ContatoController from './controllers/contato_controller';
+import './css/estilos.css';
 
 let contatoCtrl = new ContatoController();
 contatoCtrl.adicionar('Sidney Sousa', '99999-9999', '21/03/1954');
