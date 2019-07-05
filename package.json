@@ -25,7 +25,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server --mode development --watch",
-    "build": "jest && webpack --mode production",
+    "build": "webpack --mode production",
     "test": "jest --watch"
   },
   "keywords": [],

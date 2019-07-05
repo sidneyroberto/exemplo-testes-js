@@ -20,7 +20,7 @@ test('deve salvar o novo contato proveniente do formulário e exibi-lo na págin
     });
 
     const pagina = await browser.newPage();
-    await pagina.goto('http://localhost:8081');
+    await pagina.goto('http://localhost:8080');
     await pagina.click('#nome');
     await pagina.type('#nome', 'Sidney Sousa');
     await pagina.click('#telefone');
