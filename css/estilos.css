@@ -1,3 +1,126 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.banner {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+.formulario, #agenda {
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px #cccccc;
+    margin-bottom: 10px;
+}
+
+.formulario .grupo {
+    margin-bottom: 30px;
+}
+
+.formulario .grupo input {
+    height: 35px;
+    width: 20%;
+    border: none;
+    border-bottom: 3px solid #81cfe0;
+    font-size: 120%;
+    color: #555555;
+    box-sizing: border-box;
+    padding: 10px 0px 10px 10px;
+}
+
+.formulario .grupo input[type=date] {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+}
+
+.formulario .grupo input[type=date]:invalid::-webkit-datetime-edit {
+    color: #aaaaaa;
+}
+
+.formulario .grupo input::placeholder {
+    color: #aaaaaa;
+}
+
+.formulario .grupo input:focus {
+    outline: none;
+    border-bottom: 4px solid #81cfe0;
+}
+
+.formulario input[type=submit] {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.formulario input[type=submit]:focus {
+    outline: none;
+}
+
+#agenda {
+    padding: 20px;
+}
+
+.contato {
+    margin: auto;
+    margin-bottom: 10px;
+    display: table;
+    width: 99%;
+    border: 1px solid #bbbbbb;
+    padding: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #cccccc;
+}
+
+.inicial, .dados {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inicial {
+    width: 60px;
+}
+
+.inicial span {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 120%;
+}
+
+.dados span {
+    display: block;
+}
+
+.dados span:first-child {
+    font-weight: bold;
+}
+
+.dados span:last-child {
+    font-size: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        font-size: 80%;
+    }
+    .formulario .grupo input {
+        width: 90%;
+    }
+    .contato {
+        width: 90%;
+    }
 }

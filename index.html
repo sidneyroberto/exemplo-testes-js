@@ -11,7 +11,32 @@
 
 <body>
 
-    <h1>Agenda com testes</h1>
+    <div class="banner">
+        <h1>Agenda com testes</h1>
+    </div>
+
+    <div class="conteudo">
+        <div class="formulario">
+            <form id="formularioContato">
+                <div class="grupo">
+                    <input type="text" name="nome" id="nome" placeholder="Nome" required>
+                </div>
+                <div class="grupo">
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+                </div>
+                <div class="grupo">
+                    <input type="date" name="dataNascimento" id="dataNascimento" required>
+                </div>
+
+                <input type="submit" id="botaoSalvar" value="Salvar">
+            </form>
+        </div>
+
+        <div id="agenda">
+
+        </div>
+    </div>
+    
 
     <script src="assets/app.bundle.js"></script>
 </body>
