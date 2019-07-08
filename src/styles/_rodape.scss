@@ -1,0 +1,19 @@
+.rodape {
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+    font-size: 80%;
+
+    #copyright {
+        font-weight: bold;
+        margin-right: 20px
+    }
+
+    #powered {
+        img {
+            vertical-align: middle;
+            width: 50px;
+            margin-right: 20px;
+        }
+    }
+}

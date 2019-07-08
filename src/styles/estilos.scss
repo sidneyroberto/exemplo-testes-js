@@ -1,0 +1,41 @@
+@import 'variaveis';
+
+body {
+    font-family: $fonte-principal;
+    margin: 0px;
+}
+
+.banner {
+    padding: 10px 20px;
+    background-color: $cor-principal;
+    color: white;
+
+    h1 {
+        display: inline;
+        margin-right: 30px;
+    }
+
+    ul,
+    li {
+        display: inline;
+    }
+
+    li {
+        margin-right: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 120%;
+
+        &:hover {
+            color: $cor-secundaria;
+        }
+    }
+}
+
+@import 'conteudo';
+@import 'rodape';
+@import 'media_queries';

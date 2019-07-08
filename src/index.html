@@ -5,15 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/estilos.bundle.css">
     <title>Exemplo Testes</title>
 </head>
 
 <body>
 
-    <div class="banner">
-        <h1>Agenda com testes</h1>
-    </div>
+    ${require('./partials/banner.html')}
 
     <div class="conteudo">
         <div class="formulario">
@@ -36,9 +33,10 @@
 
         </div>
     </div>
-    
 
-    <script src="assets/app.bundle.js"></script>
+    ${require('./partials/rodape.html')}
+
+
 </body>
 
 </html>

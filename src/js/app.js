@@ -1,5 +1,5 @@
 import ContatoView from './views/ContatoView';
-import './css/estilos.css';
+import '../styles/estilos.scss';
 
 let contatoView = new ContatoView();
 document
