@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --mode development --watch",
     "build": "webpack --mode production",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll --coverage"
   },
   "keywords": ["webpack", "jest", "puppeteer", "teste de software"],
   "author": "Sidney Sousa",
